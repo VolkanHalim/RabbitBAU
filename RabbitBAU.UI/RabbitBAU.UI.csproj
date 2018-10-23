@@ -1,7 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,11 +12,13 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="RabbitMQ.Client" Version="5.1.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\RabbitBAU.Abstract\RabbitBAU.Abstract.csproj" />
+    <ProjectReference Include="..\RabbitBAU.Business\RabbitBAU.Business.csproj" />
+    <ProjectReference Include="..\RabbitBAU.Core\RabbitBAU.Core.csproj" />
+    <ProjectReference Include="..\RabbitBAU.Repository\RabbitBAU.Repository.csproj" />
   </ItemGroup>
 
 </Project>

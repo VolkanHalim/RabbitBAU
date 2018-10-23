@@ -6,6 +6,8 @@ namespace RabbitBAU.Repository
     {
         public UserRepository(DataContext dbContext) : base(dbContext)
         {
+
+
         }
     }
 }

@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitBAU.Repository", "Rab
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitBAU.Abstract", "RabbitBAU.Abstract\RabbitBAU.Abstract.csproj", "{52797F04-D9F4-4617-B81B-0738439833F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitBAU.Core", "RabbitBAU.Core\RabbitBAU.Core.csproj", "{0CD9C72A-5D81-40E7-9E1B-C8F2A0E98C27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitBAU.Core", "RabbitBAU.Core\RabbitBAU.Core.csproj", "{0CD9C72A-5D81-40E7-9E1B-C8F2A0E98C27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitBAU.Business", "RabbitBAU.Business\RabbitBAU.Business.csproj", "{5B584F43-3146-4E1A-A341-9C4C3E33A998}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitBAU.Business", "RabbitBAU.Business\RabbitBAU.Business.csproj", "{5B584F43-3146-4E1A-A341-9C4C3E33A998}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitBAU.UI", "RabbitBAU.UI\RabbitBAU.UI.csproj", "{DD9F4122-CB39-4A93-8B37-E37A7A4E0876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitBAU.RabbitFeeder", "RabbitBAU.RabbitFeeder\RabbitBAU.RabbitFeeder.csproj", "{B87479BF-7088-4B08-B175-811844D82191}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{5B584F43-3146-4E1A-A341-9C4C3E33A998}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B584F43-3146-4E1A-A341-9C4C3E33A998}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B584F43-3146-4E1A-A341-9C4C3E33A998}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD9F4122-CB39-4A93-8B37-E37A7A4E0876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9F4122-CB39-4A93-8B37-E37A7A4E0876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9F4122-CB39-4A93-8B37-E37A7A4E0876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9F4122-CB39-4A93-8B37-E37A7A4E0876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B87479BF-7088-4B08-B175-811844D82191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B87479BF-7088-4B08-B175-811844D82191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B87479BF-7088-4B08-B175-811844D82191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B87479BF-7088-4B08-B175-811844D82191}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
